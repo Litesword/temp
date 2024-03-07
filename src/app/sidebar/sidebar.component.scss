@@ -1,0 +1,27 @@
+
+
+  .sidebar-container {
+    display: block;
+    overflow: auto; /* Enable vertical scrolling if content overflows */
+    width: 280px; /* Set the width of the sidebar */
+    z-index: 1000; /* Ensure the sidebar is displayed on top of other content */
+    background-color: #60ec78; 
+    border-right: 1px solid #f1dada; 
+    transition: width 0.3s;
+    height:100rem;
+  }
+  
+  
+  .sidebar-container.closed {
+    width: 0px;
+  }
+  
+  .sidebar-container.open {
+    width: 280px;
+  }
+  .full-height-container {
+    height: 100%;
+  }
+  .menu{
+    margin-left: 17px ;
+  }
