@@ -6,12 +6,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { RightBlockComponent } from './right-block/right-block.component';
+import { HomeComponentComponent } from './home-component/home-component.component';
+import { RightUserBlockComponent } from './right-user-block/right-user-block.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidebarComponent,
-    RightBlockComponent
+    RightBlockComponent,
+    HomeComponentComponent,
+    RightUserBlockComponent
   ],
   imports: [
     BrowserModule,
@@ -20,6 +24,6 @@ import { RightBlockComponent } from './right-block/right-block.component';
     AppRoutingModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent,]
 })
 export class AppModule { }
