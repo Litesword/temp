@@ -8,6 +8,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { RightBlockComponent } from './right-block/right-block.component';
 import { HomeComponentComponent } from './home-component/home-component.component';
 import { RightUserBlockComponent } from './right-user-block/right-user-block.component';
+import { cardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { RightUserBlockComponent } from './right-user-block/right-user-block.com
     SidebarComponent,
     RightBlockComponent,
     HomeComponentComponent,
-    RightUserBlockComponent
+    RightUserBlockComponent,
+    cardComponent
   ],
   imports: [
     BrowserModule,
